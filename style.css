@@ -78,3 +78,35 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+/* About section için stil */
+.about-content {
+    display: flex; /* Flexbox kullan */
+    align-items: flex-start; /* Resim ve metni üstten hizala */
+    gap: 20px; /* Resim ve metin arası boşluk */
+    margin-top: 20px; /* Başlık ile içerik arası boşluk */
+}
+
+.about-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge ekle */
+    border: 2px solid #ddd; /* Çerçeve ekle */
+}
+
+.about-text {
+    flex: 1; /* Metin alanını genişlet */
+    align-self: center; /* Metni dikeyde ortala */
+}
+
+/* Mobil cihazlar için stil */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Öğeleri dikey sırala */
+        text-align: center; /* Metni ortala */
+    }
+
+    .about-image {
+        width: 150px; /* Mobilde resmi küçült */
+    }
+}
