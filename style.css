@@ -92,11 +92,13 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge ekle */
     border: 2px solid #ddd; /* Çerçeve ekle */
+    border-radius: 10px; /* Köşeleri yuvarla */
 }
 
 .about-text {
     flex: 1; /* Metin alanını genişlet */
     align-self: center; /* Metni dikeyde ortala */
+    margin-top: 0; /* Metni en üstten başlat */
 }
 
 /* Mobil cihazlar için stil */
