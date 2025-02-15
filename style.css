@@ -108,5 +108,10 @@ footer {
 
     .about-image {
         width: 150px; /* Mobilde resmi küçült */
+        margin-bottom: 20px; /* Resim ile metin arası boşluk */
+        height: auto; /* Oranları koru */
+        max-width: 100%; /* Resmin genişliği ekran genişliğini aşmasın */
+        height: auto; /* Oranları koru */
+        border-radius: 10px; /* Köşeleri yuvarla */
     }
 }
